@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:700');
+
+html {
+	font-size: 62.5%; /* base de 10px */
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.6rem;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Roboto Slab', serif;
+}
