@@ -47,9 +47,12 @@ h1, h2, h3, h4, h5 {
 
 .boite {
 	text-align: center;
-	width: 20%;
 	background-color: beige;
 	border: 1px solid #b69878;
-	padding: 1rem;
+	padding: .2rem 3rem;
 	margin-bottom: 10px;
+}
+
+.boite:last-child {
+	margin-bottom: 0;
 }
