@@ -1,0 +1,25 @@
+/* Mise en page */
+
+.entete {
+  background: #76b876;
+}
+
+.navigation {
+  background: #8cb2d3;
+}
+
+.contenu-complet {
+  background: #cf7e7e;
+}
+
+.contenu {
+  background: #b58ab5;
+}
+
+.barre-laterale {
+  background: #5a9660;
+}
+
+.pied-page {
+  background: #e0c4e4;
+}
