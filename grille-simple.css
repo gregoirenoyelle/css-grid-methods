@@ -1,7 +1,22 @@
+/* base */
+
+a {
+  color: #2960a8;
+}
+
+a:hover {
+  color: #7b34ac;
+}
+
 /* Mise en page */
+
+.enveloppe {
+  padding-bottom: initial;
+}
 
 .entete {
   background: #76b876;
+  padding-bottom: 10px;
 }
 
 .navigation {
@@ -14,12 +29,41 @@
 
 .contenu {
   background: #b58ab5;
+  padding: 25px 3%;
 }
 
 .barre-laterale {
   background: #5a9660;
+  padding: 10px 3%;
 }
 
 .pied-page {
   background: #e0c4e4;
+  padding: 20px 0;
 }
+
+/* Contenus */
+
+.entete p {
+  margin-bottom: 0;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contenu-complet h1:first-child {
+  margin-top: 0;
+}
+
+.barre-laterale .widget:first-child h3 {
+  margin-top: 0;
+}
+
+.pied-page p {
+  margin: 0;
+  text-align: center;
+}
+
