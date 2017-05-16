@@ -48,12 +48,6 @@ a:hover {
   margin-bottom: 0;
 }
 
-.navigation ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 .contenu-complet h1:first-child {
   margin-top: 0;
 }
@@ -66,4 +60,32 @@ a:hover {
   margin: 0;
   text-align: center;
 }
+
+/* Navigation */
+
+.menu-principal {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.menu-principal li {
+  display: inline-block;
+  border: 1px solid #8b8b8b;
+  margin-right: -4px;
+}
+
+.menu-principal a {
+  padding: 1rem 2rem;
+  display: block;
+  text-decoration: none;
+  transition: all .4s ease-in-out;
+}
+
+.menu-principal a:hover {
+  color: white;
+  background: rgba(66, 105, 140, 0.42);
+}
+
 
