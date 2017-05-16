@@ -16,7 +16,7 @@ a:hover {
 
 .entete {
   background: #76b876;
-  padding-bottom: 10px;
+  padding-bottom: 1rem;
 }
 
 .navigation {
@@ -29,17 +29,17 @@ a:hover {
 
 .contenu {
   background: #b58ab5;
-  padding: 25px 3%;
+  padding: 2.5rem 3%;
 }
 
 .barre-laterale {
   background: #5a9660;
-  padding: 10px 3%;
+  padding: 1rem 3%;
 }
 
 .pied-page {
   background: #e0c4e4;
-  padding: 20px 0;
+  padding: 2rem 0;
 }
 
 /* Contenus */
@@ -73,7 +73,7 @@ a:hover {
 .menu-principal li {
   display: inline-block;
   border: 1px solid #8b8b8b;
-  margin-right: -4px;
+  margin-right: -0.4rem;
 }
 
 .menu-principal a {
