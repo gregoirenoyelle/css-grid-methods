@@ -25,19 +25,25 @@ a:hover {
 
 .contenu-complet {
   background: #cf7e7e;
+  overflow: auto;
 }
 
 .contenu {
   background: #b58ab5;
   padding: 2.5rem 3%;
+  width: 61%;
+  float: left;
 }
 
 .barre-laterale {
   background: #5a9660;
   padding: 1rem 3%;
+  width: 35%;
+  float: right;
 }
 
 .pied-page {
+  clear: both;
   background: #e0c4e4;
   padding: 2rem 0;
 }
@@ -86,6 +92,22 @@ a:hover {
 .menu-principal a:hover {
   color: white;
   background: rgba(66, 105, 140, 0.42);
+}
+
+
+/* Responsive */
+@media screen and (max-width: 500px) {
+  .contenu,
+  .barre-laterale {
+    width: initial;
+    float: initial;
+  }
+ 
+  .menu-principal li {
+    display: block;
+    margin-right: initial;
+  }
+
 }
 
 
