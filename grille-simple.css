@@ -16,7 +16,6 @@ a:hover {
 
 .entete {
   background: #76b876;
-  padding-bottom: 1rem;
 }
 
 .navigation {
@@ -30,84 +29,13 @@ a:hover {
 
 .contenu {
   background: #b58ab5;
-  padding: 2.5rem 3%;
-  width: 61%;
-  float: left;
 }
 
 .barre-laterale {
   background: #5a9660;
-  padding: 1rem 3%;
-  width: 35%;
-  float: right;
 }
 
 .pied-page {
-  clear: both;
   background: #e0c4e4;
-  padding: 2rem 0;
 }
-
-/* Contenus */
-
-.entete p {
-  margin-bottom: 0;
-}
-
-.contenu-complet h1:first-child {
-  margin-top: 0;
-}
-
-.barre-laterale .widget:first-child h3 {
-  margin-top: 0;
-}
-
-.pied-page p {
-  margin: 0;
-  text-align: center;
-}
-
-/* Navigation */
-
-.menu-principal {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-}
-
-.menu-principal li {
-  display: inline-block;
-  border: 1px solid #8b8b8b;
-  margin-right: -0.4rem;
-}
-
-.menu-principal a {
-  padding: 1rem 2rem;
-  display: block;
-  text-decoration: none;
-  transition: all .4s ease-in-out;
-}
-
-.menu-principal a:hover {
-  color: white;
-  background: rgba(66, 105, 140, 0.42);
-}
-
-
-/* Responsive */
-@media screen and (max-width: 500px) {
-  .contenu,
-  .barre-laterale {
-    width: initial;
-    float: initial;
-  }
- 
-  .menu-principal li {
-    display: block;
-    margin-right: initial;
-  }
-
-}
-
 
