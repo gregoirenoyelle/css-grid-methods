@@ -1,6 +1,23 @@
 @charset "UTF-8";
 
+/* Modification style base */
+
+body {
+    color: white;
+}
 
 .enveloppe {
-    max-width: 95%;
+    max-width: 100%;
+    margin: 0;
+    background-color: black;
+}
+
+.grille {
+    background-color: transparent;
+    border: initial;
+}
+
+.grille section {
+    border-radius: 0.5rem;
+    padding: 2rem 1rem;
 }
