@@ -23,16 +23,6 @@ body {
 
 /* Grille */
 
-/* 
-
-Exo: 
-
-* Placer les élement sur 4 colonnes
-* donner une hauteur minimum aux enfants
-* Centre le contenu dans les boîtes
-* Prendre 
-
-*/
 
 .grille {
     display: grid;
@@ -47,5 +37,14 @@ Exo:
     align-items: center;
 }
 
+.white {
+    grid-column: 1 / -1;
+    grid-row: 3 / span 2;
+}
+
+.black {
+    grid-column: 2 / span 2;
+    grid-row: 7 / span 4;
+}
 
 
