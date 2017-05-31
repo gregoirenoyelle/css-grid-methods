@@ -41,4 +41,11 @@ Exo:
     grid-gap: 1rem;
 }
 
+.grille section {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+
 
