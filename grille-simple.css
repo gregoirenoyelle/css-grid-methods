@@ -47,4 +47,15 @@ body {
     grid-row: 7 / span 4;
 }
 
+@media screen and (max-width: 600px) {
+
+    .grille {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .black {
+        grid-column: 1 / -1;
+    }
+}
+
 
