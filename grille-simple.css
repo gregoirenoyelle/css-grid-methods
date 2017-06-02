@@ -4,6 +4,7 @@
 
 body {
     color: white;
+    background-color: black;
 }
 
 .enveloppe {
@@ -19,5 +20,7 @@ body {
 
 .grille section {
     border-radius: 0.5rem;
-    padding: 2rem 1rem;
+    display: grid;
+    justify-items: center;
+    justify-items: center;
 }
