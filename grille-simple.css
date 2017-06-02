@@ -24,3 +24,40 @@ body {
     justify-items: center;
     justify-items: center;
 }
+
+/* Grid Layout */
+/* Création d'une grille de 12 colonnes */
+
+.grille {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 1rem;    
+    grid-template-rows: auto;
+
+}
+
+
+.zone-entete {
+    grid-column: initial;
+    grid-row-end: initial;
+}
+
+.zone-barre-laterale-gauche {
+    grid-column: initial;
+    grid-row: initial;
+}
+
+.zone-contenu {
+    grid-column: initial;
+    grid-row: initial;
+}
+
+.zone-barre-laterale-droite {
+    grid-column: initial;
+    grid-row: initial;
+}
+
+.zone-pied-page {
+    grid-column: initial; 
+    grid-row: initial; 
+}
