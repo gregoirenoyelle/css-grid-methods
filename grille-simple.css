@@ -22,42 +22,40 @@ body {
     border-radius: 0.5rem;
     display: grid;
     justify-items: center;
-    justify-items: center;
+    align-items: center;
 }
 
 /* Grid Layout */
 /* Création d'une grille de 12 colonnes */
 
 .grille {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-gap: 1rem;    
-    grid-template-rows: auto;
-
+ display: grid;
+ grid-template-columns: [sidebar-left-start] repeat(3, 1fr) [content-start] repeat(6, 1fr) [content-end] repeat(3, 1fr) [sidebar-right-end];
+ grid-template-rows: [header-start] minmax(8rem, 1fr) [main-start] repeat(3, 1fr) [main-end] 1fr [footer-end];
+ grid-gap: 1rem;
 }
 
-
 .zone-entete {
-    grid-column: initial;
-    grid-row-end: initial;
+ grid-column: sidebar-left-start / sidebar-right-end;
+ grid-row-end: main-start;
 }
 
 .zone-barre-laterale-gauche {
-    grid-column: initial;
-    grid-row: initial;
+ grid-column: sidebar-left-start / content-start;
+ grid-row: main-start / main-end;
 }
 
 .zone-contenu {
-    grid-column: initial;
-    grid-row: initial;
+ grid-column: content-start / content-end;
+ grid-row: main-start / main-end;
 }
 
 .zone-barre-laterale-droite {
-    grid-column: initial;
-    grid-row: initial;
+ grid-column: content-end / sidebar-right-end;
+ grid-row: main-start / main-end;
 }
 
 .zone-pied-page {
-    grid-column: initial; 
-    grid-row: initial; 
+ grid-column: sidebar-left-start / sidebar-right-end; 
+ grid-row: main-end / footer-end;
 }
