@@ -20,6 +20,7 @@ body {
 
 .grille section {
     border-radius: 0.5rem;
+    text-align: center;
     display: grid;
     justify-items: center;
     align-items: center;
