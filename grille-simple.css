@@ -28,6 +28,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: minmax(10rem, 1fr);
+    grid-auto-flow: dense;
     grid-gap: 1rem;
 }
 
@@ -47,6 +48,11 @@ body {
     grid-row: 7 / span 4;
 }
 
+section:nth-child(11) {
+    border: 5px solid #e7e1e1;
+    grid-column: 3 / -1;
+}
+
 @media screen and (max-width: 600px) {
 
     .grille {
@@ -54,6 +60,10 @@ body {
     }
 
     .black {
+        grid-column: 1 / -1;
+    }
+
+    section:nth-child(11) {
         grid-column: 1 / -1;
     }
 }
