@@ -2,8 +2,6 @@
 
 Depuis la branche **grille_color_base**.
 
-![Aperçu Exo](http://ressouces-modules.s3.amazonaws.com/visuels-md-repo/css-grid-color-exo-1.jpeg)
-
 ### Détail de l'exercice:
 
 * Partir de la branche: grille_color_base
