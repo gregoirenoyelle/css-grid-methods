@@ -1,5 +1,6 @@
-# Grilles Zone Base
+# Grilles CSS : Zone Base
 
-Voici plusieurs expérimentations sur les méthodes pour construire des grilles CSS. Changer de branche pour voir les différentes approches. 
+Ce dépôt est une base de travail pour faire des expérimentations autour des grilles CSS.
 
-Ce dépôt sert de base pour les mise en page web simple sans contenu. 
+Ceci est une page web simple avec un minimum de contenu pour faire des tests avec les approches multiples de **grid** (automatique, lignes nommées et zones nommées).
+
