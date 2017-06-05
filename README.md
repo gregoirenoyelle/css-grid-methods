@@ -1,9 +1,12 @@
 # Grilles CSS
 
-Voici plusieurs expérimentations sur les méthodes pour construire des grilles CSS. Changer de branche pour voir les différentes approches. 
+Ce dépôt est une base de travail pour faire des expérimentations autour des grilles CSS.
 
-* branche grille_float: CSS avec Float
-* branche grille_flex: CSS avec Flex
-* branche grille_grid: CSS avec Grid 
+### Présentation des branches
 
-Pour la branche avec Grid, c'est @supports qui est utilisé pour isoler les CSS quand le navigateur ne supporte pas Grid Layout.
+* branche grille_color_base: Blocs de couleur basiques pour faire plusieurs tests sur **grid**.
+* branche grille_post_base: Page d'archive simple avec une série de plusieurs articles pour faire des tests avec: **float**, **flex** et **grid**.
+* branche grille_zone_base: Page web simple avec un minimum de contenu pour faire des tests avec les approches multiples de **grid** (automatique, lignes nommées et zones nommées).
+* branche page_base: Page web complète pour créer des mises en page type avec **float**, **flex** (pour le menu) et **grid**.
+* branche menu_base: Menu basique pour tester avec **float** et **flex**.
+
